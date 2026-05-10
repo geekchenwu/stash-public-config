@@ -15,14 +15,41 @@ proxy-providers:
     path: ./providers/mesl.yaml
     override:
       additional-prefix: '[mesl] '
-  tagss:
+  tagss-a:
     type: http
-    url: https://placeholder.invalid/tagss
+    url: https://placeholder.invalid/tagss-a
     interval: 3600
-    path: ./providers/tagss.yaml
+    path: ./providers/tagss-a.yaml
     proxy: DIRECT
     override:
-      additional-prefix: '[tagss] '
+      additional-prefix: '[tagss-a] '
+
+  tagss-b:
+    type: http
+    url: https://placeholder.invalid/tagss-b
+    interval: 3600
+    path: ./providers/tagss-b.yaml
+    proxy: DIRECT
+    override:
+      additional-prefix: '[tagss-b] '
+
+  tagss-c:
+    type: http
+    url: https://placeholder.invalid/tagss-c
+    interval: 3600
+    path: ./providers/tagss-c.yaml
+    proxy: DIRECT
+    override:
+      additional-prefix: '[tagss-c] '
+
+  tagss-d:
+    type: http
+    url: https://placeholder.invalid/tagss-d
+    interval: 3600
+    path: ./providers/tagss-d.yaml
+    proxy: DIRECT
+    override:
+      additional-prefix: '[tagss-d] '
   naixi:
     type: http
     url: https://placeholder.invalid/naixi
@@ -630,7 +657,10 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Airport.png
   type: select
   use:
-  - tagss
+  - tagss-a
+  - tagss-b
+  - tagss-c
+  - tagss-d
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
 - name: 📦 naixi
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Airport.png
@@ -640,6 +670,9 @@ proxy-groups:
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+- DOMAIN,rama991.siamparagon.org,DIRECT
+- DOMAIN,link01.nobodys.uk,DIRECT
+- DOMAIN,huaikhwang.central-world.org,DIRECT
 - DOMAIN,villa.parkson-market.org,DIRECT
 - DOMAIN-SUFFIX,parkson-market.org,DIRECT
 - DOMAIN-SUFFIX,mesl.cloud,DIRECT
