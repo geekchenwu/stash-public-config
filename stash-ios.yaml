@@ -227,20 +227,6 @@ rule-providers:
     interval: 86400
     path: ./rule-providers/direct.list
     url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.list
-  anti-ad:
-    type: http
-    behavior: domain
-    format: text
-    interval: 86400
-    path: ./rule-providers/anti-ad.list
-    url: https://anti-ad.net/domains.txt
-  adblock-mihomo:
-    type: http
-    behavior: domain
-    format: mrs
-    interval: 86400
-    path: ./rule-providers/adblock.mrs
-    url: https://github.com/217heidai/adblockfilters/raw/main/rules/adblockdomain.mrs
 proxies:
 - name: 🔐 自建-DC9-Reality
   type: vless
@@ -530,9 +516,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(美国|美|🇺🇸|🇺🇲|us|usa|united.?states|america|los.?angeles|san.?francisco|san.?jose|silicon.?valley|seattle|new.?york|chicago|dallas|houston|atlanta|miami|washington|san.?diego|boston|phoenix|洛杉矶|旧金山|圣何塞|硅谷|西雅图|纽约|新泽西|芝加哥|达拉斯|休斯顿|亚特兰大|迈阿密|华盛顿|波士顿)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial|gaming|游戏)
@@ -540,9 +528,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(香港|港|🇭🇰|hk|hong.?kong|hongkong|澳门|🇲🇴|mo|macao)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
@@ -550,9 +540,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(日本|日|🇯🇵|jp|japan|tokyo|osaka|东京|大阪|埼玉|川崎)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
@@ -560,9 +552,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(新加坡|新|狮城|🇸🇬|sg|singapore)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial|新泽西|新西兰|newzealand)
@@ -570,9 +564,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(台湾|台|🇹🇼|tw|taiwan|taipei|台北|台中|高雄)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
@@ -580,9 +576,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_Kingdom.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(英国|英|🇬🇧|uk|united.?kingdom|britain|england|london|伦敦|曼彻斯特|manchester|德国|🇩🇪|de|germany|frankfurt|法兰克福|法国|🇫🇷|fr|france|paris|巴黎|荷兰|🇳🇱|nl|netherlands|amsterdam|阿姆斯特丹|意大利|🇮🇹|it|italy|西班牙|🇪🇸|es|spain|瑞士|🇨🇭|switzerland|瑞典|🇸🇪|sweden|爱尔兰|🇮🇪|ireland|dublin)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
@@ -590,9 +588,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)(韩国|韩|🇰🇷|kr|korea|seoul|首尔)
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial|朝鲜)
@@ -600,9 +600,11 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/World_Map.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 100
+  interval: 1800
+  tolerance: 120
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
   filter: (?i)^(?!.*(?:美国|🇺🇸|🇺🇲|us|usa|america|香港|🇭🇰|hk|hong|日本|🇯🇵|jp|japan|新加坡|🇸🇬|sg|singapore|台湾|🇹🇼|tw|taiwan|英国|🇬🇧|uk|united.?kingdom|德国|🇩🇪|de|germany|法国|🇫🇷|fr|france|荷兰|🇳🇱|nl|netherlands|韩国|🇰🇷|kr|korea)).*
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
@@ -610,11 +612,13 @@ proxy-groups:
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
   type: url-test
   include-all: true
-  interval: 600
-  tolerance: 50
+  interval: 2400
+  tolerance: 150
   lazy: true
+  timeout: 4000
+  max-failed-times: 3
   url: http://www.gstatic.com/generate_204
-  exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
+  exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial|gaming|游戏)
 - name: 🌐 全部节点
   icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Global.png
   type: select
@@ -731,8 +735,6 @@ rules:
 - RULE-SET,openai,🧠 ChatGPT
 - DOMAIN-SUFFIX,sora.com,🧠 ChatGPT
 - RULE-SET,category-ai-chat-!cn,🤖 其他AI
-- RULE-SET,anti-ad,REJECT
-- RULE-SET,adblock-mihomo,REJECT
 - RULE-SET,youtube,🎬 YouTube
 - RULE-SET,netflix,🎬 Netflix
 - RULE-SET,disney,🎬 Disney+
