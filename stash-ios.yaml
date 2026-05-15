@@ -30,6 +30,13 @@ proxy-providers:
     path: ./providers/naixi.yaml
     override:
       additional-prefix: '[naixi] '
+  wgetcloud:
+    type: http
+    url: https://bava8u2znaj6bdzzjnfb.wgetcloud.online/link/72d92a82-7cdd-3ec1-a5a2-2e7089d5b444
+    interval: 3600
+    path: ./providers/wgetcloud.yaml
+    override:
+      additional-prefix: '[wgetcloud] '
 rule-providers:
   category-ai-chat-!cn:
     type: http
@@ -641,6 +648,12 @@ proxy-groups:
   type: select
   use:
   - naixi
+  exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
+- name: 📦 wgetcloud
+  icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Airport.png
+  type: select
+  use:
+  - wgetcloud
   exclude-filter: (?i)(剩余|到期|过期|官网|机场|流量|网址|expire|traffic|trial)
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
