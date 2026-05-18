@@ -549,13 +549,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-googledrive.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googledrive.list
-  yf-antiad:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-antiad.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-antiad.list
   yf-asn-cn:
     type: http
     behavior: classical
@@ -1147,7 +1140,6 @@ rules:
 - RULE-SET,openai,🧠 ChatGPT
 - DOMAIN-SUFFIX,sora.com,🧠 ChatGPT
 - RULE-SET,category-ai-chat-!cn,🤖 其他AI
-- RULE-SET,yf-antiad,REJECT
 - RULE-SET,yf-cloudflare,🔐 Claude固定出口
 - RULE-SET,yf-wechat,💬 微信腾讯
 - RULE-SET,yf-qq,💬 微信腾讯
