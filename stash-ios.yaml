@@ -239,400 +239,400 @@ rule-providers:
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-wechat.list
-    url: https://yfamilys.com/rule/WeChat.rule
+    path: ./rule-set/yf-wechat.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-wechat.list
   yf-weibo:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-weibo.list
-    url: https://yfamilys.com/rule/Weibo.rule
+    path: ./rule-set/yf-weibo.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-weibo.list
   yf-neteasemusic:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-neteasemusic.list
-    url: https://yfamilys.com/rule/NetEaseMusic.rule
+    path: ./rule-set/yf-neteasemusic.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-neteasemusic.list
   yf-testflight:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-testflight.list
-    url: https://yfamilys.com/rule/TestFlight.rule
+    path: ./rule-set/yf-testflight.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-testflight.list
   yf-spark:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-spark.list
-    url: https://yfamilys.com/rule/Spark.rule
+    path: ./rule-set/yf-spark.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-spark.list
   yf-icloud:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-icloud.list
-    url: https://yfamilys.com/rule/iCloud.rule
+    path: ./rule-set/yf-icloud.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-icloud.list
   yf-speedtest:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-speedtest.list
-    url: https://yfamilys.com/rule/Speedtest.rule
+    path: ./rule-set/yf-speedtest.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-speedtest.list
   yf-appletv:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-appletv.list
-    url: https://yfamilys.com/rule/AppleTV.rule
+    path: ./rule-set/yf-appletv.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-appletv.list
   yf-baidu:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-baidu.list
-    url: https://yfamilys.com/rule/Baidu.rule
+    path: ./rule-set/yf-baidu.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-baidu.list
   yf-tencentvideo:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-tencentvideo.list
-    url: https://yfamilys.com/rule/TencentVideo.rule
+    path: ./rule-set/yf-tencentvideo.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-tencentvideo.list
   yf-iqiyi:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-iqiyi.list
-    url: https://yfamilys.com/rule/iQIYI.rule
+    path: ./rule-set/yf-iqiyi.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-iqiyi.list
   yf-alibaba:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-alibaba.list
-    url: https://yfamilys.com/rule/Alibaba.rule
+    path: ./rule-set/yf-alibaba.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-alibaba.list
   yf-alipay:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-alipay.list
-    url: https://yfamilys.com/rule/AliPay.rule
+    path: ./rule-set/yf-alipay.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-alipay.list
   yf-ccb:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-ccb.list
-    url: https://yfamilys.com/rule/CCB.rule
+    path: ./rule-set/yf-ccb.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-ccb.list
   yf-cmb:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-cmb.list
-    url: https://yfamilys.com/rule/CMB.rule
+    path: ./rule-set/yf-cmb.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-cmb.list
   yf-chinatelecom:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-chinatelecom.list
-    url: https://yfamilys.com/rule/ChinaTelecom.rule
+    path: ./rule-set/yf-chinatelecom.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-chinatelecom.list
   yf-chinaunicom:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-chinaunicom.list
-    url: https://yfamilys.com/rule/ChinaUnicom.rule
+    path: ./rule-set/yf-chinaunicom.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-chinaunicom.list
   yf-douban:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-douban.list
-    url: https://yfamilys.com/rule/DouBan.rule
+    path: ./rule-set/yf-douban.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-douban.list
   yf-gaode:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-gaode.list
-    url: https://yfamilys.com/rule/GaoDe.rule
+    path: ./rule-set/yf-gaode.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-gaode.list
   yf-jingdong:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-jingdong.list
-    url: https://yfamilys.com/rule/JingDong.rule
+    path: ./rule-set/yf-jingdong.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-jingdong.list
   yf-meituan:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-meituan.list
-    url: https://yfamilys.com/rule/MeiTuan.rule
+    path: ./rule-set/yf-meituan.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-meituan.list
   yf-oppo:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-oppo.list
-    url: https://yfamilys.com/rule/OPPO.rule
+    path: ./rule-set/yf-oppo.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-oppo.list
   yf-oneplus:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-oneplus.list
-    url: https://yfamilys.com/rule/OnePlus.rule
+    path: ./rule-set/yf-oneplus.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-oneplus.list
   yf-psbc:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-psbc.list
-    url: https://yfamilys.com/rule/PSBC.rule
+    path: ./rule-set/yf-psbc.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-psbc.list
   yf-zhihu:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-zhihu.list
-    url: https://yfamilys.com/rule/Zhihu.rule
+    path: ./rule-set/yf-zhihu.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-zhihu.list
   yf-douyin:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-douyin.list
-    url: https://yfamilys.com/rule/DouYin.rule
+    path: ./rule-set/yf-douyin.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-douyin.list
   yf-xiaohongshu:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-xiaohongshu.list
-    url: https://yfamilys.com/rule/XiaoHongShu.rule
+    path: ./rule-set/yf-xiaohongshu.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-xiaohongshu.list
   yf-baidutieba:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-baidutieba.list
-    url: https://yfamilys.com/rule/BaiDuTieBa.rule
+    path: ./rule-set/yf-baidutieba.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-baidutieba.list
   yf-tencent:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-tencent.list
-    url: https://yfamilys.com/rule/Tencent.rule
+    path: ./rule-set/yf-tencent.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-tencent.list
   yf-systemota:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-systemota.list
-    url: https://yfamilys.com/rule/SystemOTA.rule
+    path: ./rule-set/yf-systemota.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-systemota.list
   yf-appledev:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-appledev.list
-    url: https://yfamilys.com/rule/AppleDev.rule
+    path: ./rule-set/yf-appledev.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-appledev.list
   yf-applefirmware:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-applefirmware.list
-    url: https://yfamilys.com/rule/AppleFirmware.rule
+    path: ./rule-set/yf-applefirmware.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-applefirmware.list
   yf-applehardware:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-applehardware.list
-    url: https://yfamilys.com/rule/AppleHardware.rule
+    path: ./rule-set/yf-applehardware.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-applehardware.list
   yf-applemedia:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-applemedia.list
-    url: https://yfamilys.com/rule/AppleMedia.rule
+    path: ./rule-set/yf-applemedia.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-applemedia.list
   yf-appleid:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-appleid.list
-    url: https://yfamilys.com/rule/AppleID.rule
+    path: ./rule-set/yf-appleid.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-appleid.list
   yf-googlesearch:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-googlesearch.list
-    url: https://yfamilys.com/rule/GoogleSearch.rule
+    path: ./rule-set/yf-googlesearch.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googlesearch.list
   yf-googlevoice:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-googlevoice.list
-    url: https://yfamilys.com/rule/GoogleVoice.rule
+    path: ./rule-set/yf-googlevoice.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googlevoice.list
   yf-gemini:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-gemini.list
-    url: https://yfamilys.com/rule/Gemini.rule
+    path: ./rule-set/yf-gemini.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-gemini.list
   yf-copilot:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-copilot.list
-    url: https://yfamilys.com/rule/Copilot.rule
+    path: ./rule-set/yf-copilot.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-copilot.list
   yf-deepseek:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-deepseek.list
-    url: https://yfamilys.com/rule/DeepSeek.rule
+    path: ./rule-set/yf-deepseek.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-deepseek.list
   yf-qq:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-qq.list
-    url: https://yfamilys.com/rule/QQ.rule
+    path: ./rule-set/yf-qq.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-qq.list
   yf-qqmusic:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-qqmusic.list
-    url: https://yfamilys.com/rule/QQMusic.rule
+    path: ./rule-set/yf-qqmusic.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-qqmusic.list
   yf-grok:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-grok.list
-    url: https://yfamilys.com/rule/Grok.rule
+    path: ./rule-set/yf-grok.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-grok.list
   yf-proxy:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-proxy.list
-    url: https://yfamilys.com/rule/Proxy.rule
+    path: ./rule-set/yf-proxy.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-proxy.list
   yf-googledrive:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-googledrive.list
-    url: https://yfamilys.com/rule/GoogleDrive.rule
+    path: ./rule-set/yf-googledrive.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googledrive.list
   yf-antiad:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-antiad.list
-    url: https://yfamilys.com/rule/AntiAD.rule
+    path: ./rule-set/yf-antiad.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-antiad.list
   yf-asn-cn:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-asn-cn.list
-    url: https://yfamilys.com/rule/ASN-CN.rule
+    path: ./rule-set/yf-asn-cn.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-asn-cn.list
   yf-ips-cn:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-ips-cn.list
-    url: https://yfamilys.com/rule/IPs-CN.rule
+    path: ./rule-set/yf-ips-cn.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-ips-cn.list
   yf-global:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-global.list
-    url: https://yfamilys.com/rule/Global.rule
+    path: ./rule-set/yf-global.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-global.list
   yf-microsoft:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-microsoft.list
-    url: https://yfamilys.com/rule/Microsoft.rule
+    path: ./rule-set/yf-microsoft.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-microsoft.list
   yf-apple:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-apple.list
-    url: https://yfamilys.com/rule/Apple.rule
+    path: ./rule-set/yf-apple.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-apple.list
   yf-appstore:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-appstore.list
-    url: https://yfamilys.com/rule/AppStore.rule
+    path: ./rule-set/yf-appstore.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-appstore.list
   yf-chinamedia:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-chinamedia.list
-    url: https://yfamilys.com/rule/ChinaMedia.rule
+    path: ./rule-set/yf-chinamedia.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-chinamedia.list
   yf-proxymedia:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-proxymedia.list
-    url: https://yfamilys.com/rule/ProxyMedia.rule
+    path: ./rule-set/yf-proxymedia.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-proxymedia.list
   yf-cloudflare:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-cloudflare.list
-    url: https://yfamilys.com/rule/Cloudflare.rule
+    path: ./rule-set/yf-cloudflare.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-cloudflare.list
   yf-google:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-google.list
-    url: https://yfamilys.com/rule/Google.rule
+    path: ./rule-set/yf-google.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-google.list
   yf-bahamut:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-providers/yf-bahamut.list
-    url: https://yfamilys.com/rule/Bahamut.rule
+    path: ./rule-set/yf-bahamut.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-bahamut.list
 proxies:
 - name: 🔐 自建-DC9-Reality
   type: vless
