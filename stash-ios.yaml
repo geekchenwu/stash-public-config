@@ -234,6 +234,405 @@ rule-providers:
     interval: 86400
     path: ./rule-providers/direct.list
     url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.list
+  yf-wechat:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-wechat.list
+    url: https://yfamilys.com/rule/WeChat.rule
+  yf-weibo:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-weibo.list
+    url: https://yfamilys.com/rule/Weibo.rule
+  yf-neteasemusic:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-neteasemusic.list
+    url: https://yfamilys.com/rule/NetEaseMusic.rule
+  yf-testflight:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-testflight.list
+    url: https://yfamilys.com/rule/TestFlight.rule
+  yf-spark:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-spark.list
+    url: https://yfamilys.com/rule/Spark.rule
+  yf-icloud:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-icloud.list
+    url: https://yfamilys.com/rule/iCloud.rule
+  yf-speedtest:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-speedtest.list
+    url: https://yfamilys.com/rule/Speedtest.rule
+  yf-appletv:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-appletv.list
+    url: https://yfamilys.com/rule/AppleTV.rule
+  yf-baidu:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-baidu.list
+    url: https://yfamilys.com/rule/Baidu.rule
+  yf-tencentvideo:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-tencentvideo.list
+    url: https://yfamilys.com/rule/TencentVideo.rule
+  yf-iqiyi:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-iqiyi.list
+    url: https://yfamilys.com/rule/iQIYI.rule
+  yf-alibaba:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-alibaba.list
+    url: https://yfamilys.com/rule/Alibaba.rule
+  yf-alipay:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-alipay.list
+    url: https://yfamilys.com/rule/AliPay.rule
+  yf-ccb:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-ccb.list
+    url: https://yfamilys.com/rule/CCB.rule
+  yf-cmb:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-cmb.list
+    url: https://yfamilys.com/rule/CMB.rule
+  yf-chinatelecom:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-chinatelecom.list
+    url: https://yfamilys.com/rule/ChinaTelecom.rule
+  yf-chinaunicom:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-chinaunicom.list
+    url: https://yfamilys.com/rule/ChinaUnicom.rule
+  yf-douban:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-douban.list
+    url: https://yfamilys.com/rule/DouBan.rule
+  yf-gaode:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-gaode.list
+    url: https://yfamilys.com/rule/GaoDe.rule
+  yf-jingdong:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-jingdong.list
+    url: https://yfamilys.com/rule/JingDong.rule
+  yf-meituan:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-meituan.list
+    url: https://yfamilys.com/rule/MeiTuan.rule
+  yf-oppo:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-oppo.list
+    url: https://yfamilys.com/rule/OPPO.rule
+  yf-oneplus:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-oneplus.list
+    url: https://yfamilys.com/rule/OnePlus.rule
+  yf-psbc:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-psbc.list
+    url: https://yfamilys.com/rule/PSBC.rule
+  yf-zhihu:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-zhihu.list
+    url: https://yfamilys.com/rule/Zhihu.rule
+  yf-douyin:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-douyin.list
+    url: https://yfamilys.com/rule/DouYin.rule
+  yf-xiaohongshu:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-xiaohongshu.list
+    url: https://yfamilys.com/rule/XiaoHongShu.rule
+  yf-baidutieba:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-baidutieba.list
+    url: https://yfamilys.com/rule/BaiDuTieBa.rule
+  yf-tencent:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-tencent.list
+    url: https://yfamilys.com/rule/Tencent.rule
+  yf-systemota:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-systemota.list
+    url: https://yfamilys.com/rule/SystemOTA.rule
+  yf-appledev:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-appledev.list
+    url: https://yfamilys.com/rule/AppleDev.rule
+  yf-applefirmware:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-applefirmware.list
+    url: https://yfamilys.com/rule/AppleFirmware.rule
+  yf-applehardware:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-applehardware.list
+    url: https://yfamilys.com/rule/AppleHardware.rule
+  yf-applemedia:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-applemedia.list
+    url: https://yfamilys.com/rule/AppleMedia.rule
+  yf-appleid:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-appleid.list
+    url: https://yfamilys.com/rule/AppleID.rule
+  yf-googlesearch:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-googlesearch.list
+    url: https://yfamilys.com/rule/GoogleSearch.rule
+  yf-googlevoice:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-googlevoice.list
+    url: https://yfamilys.com/rule/GoogleVoice.rule
+  yf-gemini:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-gemini.list
+    url: https://yfamilys.com/rule/Gemini.rule
+  yf-copilot:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-copilot.list
+    url: https://yfamilys.com/rule/Copilot.rule
+  yf-deepseek:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-deepseek.list
+    url: https://yfamilys.com/rule/DeepSeek.rule
+  yf-qq:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-qq.list
+    url: https://yfamilys.com/rule/QQ.rule
+  yf-qqmusic:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-qqmusic.list
+    url: https://yfamilys.com/rule/QQMusic.rule
+  yf-grok:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-grok.list
+    url: https://yfamilys.com/rule/Grok.rule
+  yf-proxy:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-proxy.list
+    url: https://yfamilys.com/rule/Proxy.rule
+  yf-googledrive:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-googledrive.list
+    url: https://yfamilys.com/rule/GoogleDrive.rule
+  yf-antiad:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-antiad.list
+    url: https://yfamilys.com/rule/AntiAD.rule
+  yf-asn-cn:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-asn-cn.list
+    url: https://yfamilys.com/rule/ASN-CN.rule
+  yf-ips-cn:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-ips-cn.list
+    url: https://yfamilys.com/rule/IPs-CN.rule
+  yf-global:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-global.list
+    url: https://yfamilys.com/rule/Global.rule
+  yf-microsoft:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-microsoft.list
+    url: https://yfamilys.com/rule/Microsoft.rule
+  yf-apple:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-apple.list
+    url: https://yfamilys.com/rule/Apple.rule
+  yf-appstore:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-appstore.list
+    url: https://yfamilys.com/rule/AppStore.rule
+  yf-chinamedia:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-chinamedia.list
+    url: https://yfamilys.com/rule/ChinaMedia.rule
+  yf-proxymedia:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-proxymedia.list
+    url: https://yfamilys.com/rule/ProxyMedia.rule
+  yf-cloudflare:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-cloudflare.list
+    url: https://yfamilys.com/rule/Cloudflare.rule
+  yf-google:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-google.list
+    url: https://yfamilys.com/rule/Google.rule
+  yf-bahamut:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    path: ./rule-providers/yf-bahamut.list
+    url: https://yfamilys.com/rule/Bahamut.rule
 proxies:
 - name: 🔐 自建-DC9-Reality
   type: vless
@@ -748,6 +1147,59 @@ rules:
 - RULE-SET,openai,🧠 ChatGPT
 - DOMAIN-SUFFIX,sora.com,🧠 ChatGPT
 - RULE-SET,category-ai-chat-!cn,🤖 其他AI
+- RULE-SET,yf-antiad,REJECT
+- RULE-SET,yf-cloudflare,🔐 Claude固定出口
+- RULE-SET,yf-wechat,💬 微信腾讯
+- RULE-SET,yf-qq,💬 微信腾讯
+- RULE-SET,yf-tencent,💬 微信腾讯
+- RULE-SET,yf-alipay,🏦 银行支付
+- RULE-SET,yf-ccb,🏦 银行支付
+- RULE-SET,yf-cmb,🏦 银行支付
+- RULE-SET,yf-psbc,🏦 银行支付
+- RULE-SET,yf-alibaba,🛒 阿里购物
+- RULE-SET,yf-jingdong,🛍 京东
+- RULE-SET,yf-gaode,🗺 地图定位
+- RULE-SET,yf-chinatelecom,📶 运营商
+- RULE-SET,yf-chinaunicom,📶 运营商
+- RULE-SET,yf-neteasemusic,🎵 国内音乐
+- RULE-SET,yf-qqmusic,🎵 国内音乐
+- RULE-SET,yf-baidu,🔎 百度
+- RULE-SET,yf-baidutieba,🔎 百度
+- RULE-SET,yf-douyin,🇨🇳 国内APP
+- RULE-SET,yf-xiaohongshu,🇨🇳 国内APP
+- RULE-SET,yf-weibo,🇨🇳 国内APP
+- RULE-SET,yf-douban,🇨🇳 国内APP
+- RULE-SET,yf-zhihu,🇨🇳 国内APP
+- RULE-SET,yf-meituan,🇨🇳 国内APP
+- RULE-SET,yf-oppo,🇨🇳 国内APP
+- RULE-SET,yf-oneplus,🇨🇳 国内APP
+- RULE-SET,yf-tencentvideo,🇨🇳 国内APP
+- RULE-SET,yf-iqiyi,🇨🇳 国内APP
+- RULE-SET,yf-chinamedia,🇨🇳 国内APP
+- RULE-SET,yf-testflight,🍎 Apple
+- RULE-SET,yf-icloud,🍎 Apple
+- RULE-SET,yf-systemota,🍎 Apple
+- RULE-SET,yf-appledev,🍎 Apple
+- RULE-SET,yf-applefirmware,🍎 Apple
+- RULE-SET,yf-applehardware,🍎 Apple
+- RULE-SET,yf-applemedia,🍎 Apple
+- RULE-SET,yf-appleid,🍎 Apple
+- RULE-SET,yf-appstore,🍎 Apple
+- RULE-SET,yf-apple,🍎 Apple
+- RULE-SET,yf-appletv,🚀 默认出口
+- RULE-SET,yf-proxymedia,🚀 默认出口
+- RULE-SET,yf-speedtest,🚀 默认出口
+- RULE-SET,yf-googlesearch,🔍 Google
+- RULE-SET,yf-googlevoice,🔍 Google
+- RULE-SET,yf-googledrive,🔍 Google
+- RULE-SET,yf-google,🔍 Google
+- RULE-SET,yf-copilot,⚙️ GitHub
+- RULE-SET,yf-gemini,🤖 其他AI
+- RULE-SET,yf-deepseek,🤖 其他AI
+- RULE-SET,yf-grok,🤖 其他AI
+- RULE-SET,yf-spark,🤖 其他AI
+- RULE-SET,yf-microsoft,🪟 微软
+- RULE-SET,yf-bahamut,🎌 巴哈姆特
 - RULE-SET,youtube,🎬 YouTube
 - RULE-SET,netflix,🎬 Netflix
 - RULE-SET,disney,🎬 Disney+
@@ -778,6 +1230,10 @@ rules:
 - RULE-SET,microsoft,🪟 微软
 - RULE-SET,steam-cn,DIRECT
 - RULE-SET,steam,🎮 Steam
+- RULE-SET,yf-asn-cn,DIRECT,no-resolve
+- RULE-SET,yf-ips-cn,DIRECT,no-resolve
+- RULE-SET,yf-proxy,🚀 默认出口
+- RULE-SET,yf-global,🚀 默认出口
 - RULE-SET,direct,DIRECT
 - RULE-SET,proxy,🚀 默认出口
 - GEOIP,LAN,DIRECT,no-resolve
