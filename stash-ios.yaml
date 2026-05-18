@@ -563,13 +563,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-ips-cn.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-ips-cn.list
-  yf-global:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-global.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-global.list
   yf-microsoft:
     type: http
     behavior: classical
@@ -1225,7 +1218,6 @@ rules:
 - RULE-SET,yf-asn-cn,DIRECT,no-resolve
 - RULE-SET,yf-ips-cn,DIRECT,no-resolve
 - RULE-SET,yf-proxy,🚀 默认出口
-- RULE-SET,yf-global,🚀 默认出口
 - RULE-SET,direct,DIRECT
 - RULE-SET,proxy,🚀 默认出口
 - GEOIP,LAN,DIRECT,no-resolve
