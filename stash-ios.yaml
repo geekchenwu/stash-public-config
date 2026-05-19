@@ -18,7 +18,7 @@ proxy-providers:
   tagss:
     type: http
     url: https://placeholder.invalid/tagss
-    interval: 3600
+    interval: 86400
     path: ./providers/tagss.yaml
     proxy: DIRECT
     override:
@@ -26,14 +26,14 @@ proxy-providers:
   naixi:
     type: http
     url: https://placeholder.invalid/naixi
-    interval: 3600
+    interval: 86400
     path: ./providers/naixi.yaml
     override:
       additional-prefix: '[naixi] '
   wgetcloud:
     type: http
     url: https://bava8u2znaj6bdzzjnfb.wgetcloud.online/link/72d92a82-7cdd-3ec1-a5a2-2e7089d5b444
-    interval: 3600
+    interval: 86400
     path: ./providers/wgetcloud.yaml
     override:
       additional-prefix: '[wgetcloud] '
@@ -255,20 +255,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-neteasemusic.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-neteasemusic.list
-  yf-testflight:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-testflight.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-testflight.list
-  yf-spark:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-spark.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-spark.list
   yf-icloud:
     type: http
     behavior: classical
@@ -318,27 +304,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-alibaba.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-alibaba.list
-  yf-alipay:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-alipay.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-alipay.list
-  yf-ccb:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-ccb.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-ccb.list
-  yf-cmb:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-cmb.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-cmb.list
   yf-chinatelecom:
     type: http
     behavior: classical
@@ -395,13 +360,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-oneplus.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-oneplus.list
-  yf-psbc:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-psbc.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-psbc.list
   yf-zhihu:
     type: http
     behavior: classical
@@ -472,34 +430,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-applemedia.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-applemedia.list
-  yf-appleid:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-appleid.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-appleid.list
-  yf-googlesearch:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-googlesearch.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googlesearch.list
-  yf-googlevoice:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-googlevoice.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googlevoice.list
-  yf-gemini:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-gemini.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-gemini.list
   yf-copilot:
     type: http
     behavior: classical
@@ -507,13 +437,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-copilot.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-copilot.list
-  yf-deepseek:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-deepseek.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-deepseek.list
   yf-qq:
     type: http
     behavior: classical
@@ -528,13 +451,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-qqmusic.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-qqmusic.list
-  yf-grok:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-grok.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-grok.list
   yf-proxy:
     type: http
     behavior: classical
@@ -542,13 +458,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-proxy.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-proxy.list
-  yf-googledrive:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-googledrive.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-googledrive.list
   yf-asn-cn:
     type: http
     behavior: classical
@@ -556,13 +465,13 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-asn-cn.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-asn-cn.list
-  yf-ips-cn:
+  yf-global:
     type: http
     behavior: classical
     format: text
     interval: 86400
-    path: ./rule-set/yf-ips-cn.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-ips-cn.list
+    path: ./rule-set/yf-global.list
+    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-global.list
   yf-microsoft:
     type: http
     behavior: classical
@@ -577,13 +486,6 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-apple.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-apple.list
-  yf-appstore:
-    type: http
-    behavior: classical
-    format: text
-    interval: 86400
-    path: ./rule-set/yf-appstore.list
-    url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-appstore.list
   yf-chinamedia:
     type: http
     behavior: classical
@@ -619,6 +521,26 @@ rule-providers:
     interval: 86400
     path: ./rule-set/yf-bahamut.list
     url: https://cdn.jsdelivr.net/gh/geekchenwu/stash@main/rule-set/yf-bahamut.list
+  yf-bank-merged:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./rule-set/yf-bank-merged.yaml
+  yf-ai-merged:
+    type: file
+    behavior: classical
+    format: text
+    path: ./rule-set/yf-ai-merged.list
+  yf-apple-mini:
+    type: file
+    behavior: classical
+    format: text
+    path: ./rule-set/yf-apple-mini.list
+  yf-google-mini:
+    type: file
+    behavior: classical
+    format: text
+    path: ./rule-set/yf-google-mini.list
 proxies:
 - name: 🔐 自建-DC9-Reality
   type: vless
@@ -1137,10 +1059,7 @@ rules:
 - RULE-SET,yf-wechat,💬 微信腾讯
 - RULE-SET,yf-qq,💬 微信腾讯
 - RULE-SET,yf-tencent,💬 微信腾讯
-- RULE-SET,yf-alipay,🏦 银行支付
-- RULE-SET,yf-ccb,🏦 银行支付
-- RULE-SET,yf-cmb,🏦 银行支付
-- RULE-SET,yf-psbc,🏦 银行支付
+- RULE-SET,yf-bank-merged,🏦 银行支付
 - RULE-SET,yf-alibaba,🛒 阿里购物
 - RULE-SET,yf-jingdong,🛍 京东
 - RULE-SET,yf-gaode,🗺 地图定位
@@ -1161,28 +1080,21 @@ rules:
 - RULE-SET,yf-tencentvideo,🇨🇳 国内APP
 - RULE-SET,yf-iqiyi,🇨🇳 国内APP
 - RULE-SET,yf-chinamedia,🇨🇳 国内APP
-- RULE-SET,yf-testflight,🍎 Apple
 - RULE-SET,yf-icloud,🍎 Apple
 - RULE-SET,yf-systemota,🍎 Apple
 - RULE-SET,yf-appledev,🍎 Apple
 - RULE-SET,yf-applefirmware,🍎 Apple
 - RULE-SET,yf-applehardware,🍎 Apple
 - RULE-SET,yf-applemedia,🍎 Apple
-- RULE-SET,yf-appleid,🍎 Apple
-- RULE-SET,yf-appstore,🍎 Apple
+- RULE-SET,yf-apple-mini,🍎 Apple
 - RULE-SET,yf-apple,🍎 Apple
 - RULE-SET,yf-appletv,🚀 默认出口
 - RULE-SET,yf-proxymedia,🚀 默认出口
 - RULE-SET,yf-speedtest,🚀 默认出口
-- RULE-SET,yf-googlesearch,🔍 Google
-- RULE-SET,yf-googlevoice,🔍 Google
-- RULE-SET,yf-googledrive,🔍 Google
+- RULE-SET,yf-google-mini,🔍 Google
 - RULE-SET,yf-google,🔍 Google
 - RULE-SET,yf-copilot,⚙️ GitHub
-- RULE-SET,yf-gemini,🤖 其他AI
-- RULE-SET,yf-deepseek,🤖 其他AI
-- RULE-SET,yf-grok,🤖 其他AI
-- RULE-SET,yf-spark,🤖 其他AI
+- RULE-SET,yf-ai-merged,🤖 其他AI
 - RULE-SET,yf-microsoft,🪟 微软
 - RULE-SET,yf-bahamut,🎌 巴哈姆特
 - RULE-SET,youtube,🎬 YouTube
@@ -1216,8 +1128,8 @@ rules:
 - RULE-SET,steam-cn,DIRECT
 - RULE-SET,steam,🎮 Steam
 - RULE-SET,yf-asn-cn,DIRECT,no-resolve
-- RULE-SET,yf-ips-cn,DIRECT,no-resolve
 - RULE-SET,yf-proxy,🚀 默认出口
+- RULE-SET,yf-global,🚀 默认出口
 - RULE-SET,direct,DIRECT
 - RULE-SET,proxy,🚀 默认出口
 - GEOIP,LAN,DIRECT,no-resolve
